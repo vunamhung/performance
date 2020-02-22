@@ -1,0 +1,31 @@
+{
+	"name": "vunamhung/performance",
+	"description": "This is performance package for WordPress.",
+	"keywords": [
+		"wordpress",
+		"toolkit"
+	],
+	"homepage": "https://github.com/vunamhung/performance",
+	"license": "GPL-3.0+",
+	"support": {
+		"issues": "https://github.com/vunamhung/performance/issues",
+		"source": "https://github.com/vunamhung/performance"
+	},
+	"authors": [
+		{
+			"name": "Vu Nam Hung",
+			"email": "vunamhung@gmail.com",
+			"homepage": "https://github.com/vunamhung/",
+			"role": "Lead Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.6.0",
+		"vunamhung/wptoolkit": "^0.9.8"
+	},
+	"autoload": {
+		"psr-4": {
+			"vnh\\": "."
+		}
+	}
+}

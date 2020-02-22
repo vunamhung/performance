@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4786907045709a50ed14ed46d4d119a2",
+    "packages": [
+        {
+            "name": "vunamhung/wptoolkit",
+            "version": "0.9.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vunamhung/wptoolkit.git",
+                "reference": "9a70c8a56d3c39255bd946c9ee906433b4d3100a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vunamhung/wptoolkit/zipball/9a70c8a56d3c39255bd946c9ee906433b4d3100a",
+                "reference": "9a70c8a56d3c39255bd946c9ee906433b4d3100a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "suggest": {
+                "composer/installers": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php",
+                    "helpers/global.php",
+                    "helpers/general.php",
+                    "helpers/array.php",
+                    "helpers/woo.php",
+                    "helpers/http.php"
+                ],
+                "psr-4": {
+                    "vnh\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Vu Nam Hung",
+                    "email": "vunamhung@gmail.com",
+                    "homepage": "https://github.com/vunamhung/",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "This is a toolkit for WordPress developer.",
+            "homepage": "https://github.com/vunamhung/wptoolkit",
+            "keywords": [
+                "toolkit",
+                "wordpress"
+            ],
+            "time": "2020-02-21T09:18:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.0"
+    },
+    "platform-dev": []
+}
