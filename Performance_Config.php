@@ -3,7 +3,6 @@
 namespace vnh\performance;
 
 use vnh\contracts\Initable;
-use vnh\Performance_Settings;
 
 class Performance_Config implements Initable {
 	public $settings;

@@ -3,7 +3,6 @@
 namespace vnh\performance;
 
 use vnh\contracts\Bootable;
-use vnh\Performance_Settings;
 
 class Disable_Comments implements Bootable {
 	public $settings;
