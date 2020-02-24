@@ -1,6 +1,8 @@
 <?php
 
-namespace vnh;
+namespace vnh\performance;
+
+use vnh\Register_Settings;
 
 class Performance_Settings extends Register_Settings {
 	public function __construct($prefix, $option_name = 'performance', $default_settings = []) {
