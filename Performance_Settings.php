@@ -22,8 +22,10 @@ class Performance_Settings extends Register_Settings {
 			'remove_rsd_link' => true,
 			'remove_wlwmanifest_link' => true,
 		]);
+	}
 
-		$this->setting_fields = [
+	public function register_setting_fields() {
+		return [
 			'head' => [
 				'title' => __('Head', 'vnh_textdomain'),
 				'description' => __(
